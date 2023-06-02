@@ -24,6 +24,4 @@ while True:
         numbers.append(int(no))
     else:
         print("Invalid input. Please enter a number or 'done' to finish.")
-# answer = average(numbers)
-# print("The average of the three numbers is: {0}".format(answer))
 
