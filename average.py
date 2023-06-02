@@ -3,9 +3,12 @@
 
 def average(x,y,z):
 	a=(x+y+z)/3
-	print(a)
+	return a
 
-print("please put in the numbers")
-numbers =input(a)
-average(numbers)
-	
+x = input("please put in number1: ")
+y = input("please put in number2: ")
+z = input("please put in number3: ")
+
+
+answer = average(x,y,z)
+print("The average of the three numbers is: {0}".format(answer))
